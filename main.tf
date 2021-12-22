@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "terraform-state-spectro"
+    bucket = "terraform-state-spectro-piyush"
     key    = "project-edison/terraform.tfstate"
     region = "us-east-1"
   }
